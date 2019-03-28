@@ -2,6 +2,8 @@
 
 A coding challenge.
 
+[https://pauljnoble.github.io/dragndrop/][live demo]
+
 Drag 'n' drop prototype demonstrating auto grid layout.
 
 To develop locally run `yarn` and `yarn start`.

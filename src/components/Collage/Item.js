@@ -181,7 +181,7 @@ class CollageItem extends Component {
                         >
                             <Image
                                 innerRef={this.imageRef}
-                                src={`/images/${value.filename}`}
+                                src={`images/${value.filename}`}
                                 onLoad={this.handleImageLoad}
                                 isDragging={isDragging}
                                 wideAspect={this.state.containerAspect > this.state.imageAspect}

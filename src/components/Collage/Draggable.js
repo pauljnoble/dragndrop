@@ -64,7 +64,7 @@ class Draggable extends Component {
         return (
             <Root innerRef={this.wrapperRef}>
                 <DragImage style={dragStyles} isDragging={this.state.isDragging}>
-                    <img src={`/images/thumbs/${this.props.filename}`} />
+                    <img src={`images/thumbs/${this.props.filename}`} />
                 </DragImage>
                 <DragHandle
                     draggable

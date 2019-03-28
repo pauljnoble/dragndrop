@@ -20,7 +20,7 @@ class SidebarImage extends Component {
     handleDragStart = e => {
         // pre load large image (very simple implementation ;)
         const buffer = new Image();
-        buffer.src = `/images/${this.props.filename}`;
+        buffer.src = `images/${this.props.filename}`;
 
         this.props.handleSidebarImageDragStart(e, this.props.index);
         const dim = this.wrapperRef.current.getBoundingClientRect();
@@ -148,7 +148,7 @@ class SidebarImage extends Component {
                         isDragging={this.state.isDragging}
                         isDropping={this.state.isDropping}
                         wasDropped={this.state.wasDropped}
-                        src={`/images/thumbs/${this.props.filename}`}
+                        src={`images/thumbs/${this.props.filename}`}
                         alt={this.props.title}
                         onLoad={this.handleImageLoad}
                     />
