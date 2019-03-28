@@ -2,7 +2,7 @@
 
 A coding challenge.
 
-[https://pauljnoble.github.io/dragndrop/][live demo]
+[Live Demo](https://pauljnoble.github.io/dragndrop/)
 
 Drag 'n' drop prototype demonstrating auto grid layout.
 
