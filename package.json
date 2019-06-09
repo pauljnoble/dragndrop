@@ -8,6 +8,7 @@
         "gh-pages": "^2.0.1",
         "gsap": "^2.0.1",
         "lodash": "^4.17.10",
+        "querystringify": "^2.1.1",
         "react": "^16.4.1",
         "react-app-rewire-styled-components": "^3.0.2",
         "react-dom": "^16.4.1",
